@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+#left-side-container {
+    background-image: url(images/bg-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left-side-logo {
+    background-color: rgba(0, 0, 0, .3);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50vh;
+    color: white;
+    font-size: 6vh;
+    font-weight: 700;
+}
+
+.left-side-logo img{
+    height: 100%;
+}
+
+.left-side-bottom {
+    color: white;
+    font-size: 1rem;
+}
+
+.left-side-bottom a {
+    color: white;
+}
+
+#right-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+    padding: 20px 0;
+    justify-content: center;    
+    background-color: rgb(235, 235, 235);
+}
+
+.right-side-header {
+    padding: 40px;
+    max-width: 800px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.right-side-main {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.form-row-container {
+    text-transform: uppercase;
+    display: flex;
+    flex: 0;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;    
+    margin-right: 15%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.first-name-last-name {
+    display: flex;
+}
+
+input {
+    width: 250px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid #d4d6da;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.right-side-footer {
+    padding: 40px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-footer button {
+    border-radius: 10px;
+    background-color: rgb(134, 37, 77);
+    color: white;
+    border: 0px;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 1.2rem;   
+}
+
+.footer-first-part {
+    margin-bottom: 30px;
+}
+
+.footer-last-part a{
+    color: rgb(134, 37, 77);
+    text-decoration: none;
+}
