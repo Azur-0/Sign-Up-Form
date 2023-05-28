@@ -4,6 +4,10 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --theme-color: rgb(134, 37, 77);    
+}
+
 body {
     display: flex;
 }
@@ -130,7 +134,7 @@ input:focus {
 
 .right-side-footer button {
     border-radius: 10px;
-    background-color: rgb(134, 37, 77);
+    background-color: var(--theme-color);
     color: white;
     border: 0px;
     padding: 10px 50px;
@@ -144,7 +148,7 @@ input:focus {
 }
 
 .footer-last-part a{
-    color: rgb(134, 37, 77);
+    color: var(--theme-color);
     text-decoration: none;
 }
 
