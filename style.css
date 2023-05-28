@@ -83,7 +83,14 @@ body {
     padding-bottom: 20px;
 }
 
-.form-row-container {
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+.form-container > div {
     text-transform: uppercase;
     display: flex;
     flex: 0;
@@ -92,21 +99,12 @@ body {
     letter-spacing: 1px;
 }
 
-.input-container {
+.form-container > div > div {
     display: flex;
     flex-direction: column;    
     margin-right: 10%;
 }
 
-.form-something {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-}
-
-.first-name-last-name {
-    display: flex;
-}
 
 input {
     width: 250px;
